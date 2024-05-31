@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", Helvetica, sans-serif;
+    color: #000; 
+    width: 100%;    
+    background-color: #f6fcff;
+    height: auto;
+}
+
+body a, body button {
+    text-decoration: none;
+    background: none;
+    color: inherit; 
+    transition: .4s;
+    font-size: 1rem;
+}
+
+body a:hover,
+nav ul button:hover {
+    color: #bbb; 
+}
+
+body a.btn:hover {
+    color: #fff;
+}
+
+body input, 
+body select, 
+body button,
+body textarea,
+body label {
+    border: none; 
+    outline: none; 
+    font-size: 1rem;
+    font-family: inherit; 
+}
+
+body input::placeholder, 
+body select::placeholder, 
+body button::placeholder,
+body textarea::placeholder {
+    font-family: inherit;
+    color: #aaa; 
+}
+
+body form {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto; 
+}
+
+body form label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-bottom: 0.7rem;
+}
+
+body form label span {
+    text-align: left;
+    font-weight: bold;
+}
+
+body form  input, 
+body form label textarea {
+    border-bottom: 1px solid #ccc;
+    padding: 0.8rem 0.5rem 0.8rem 0; 
+    background-color: transparent;
+}
+
+.btn {
+    background-color: #1a8918;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    display: inline-block; 
+    min-width: 120px; 
+    font-weight: bold;
+    padding: 10px 15px; 
+}
+
+.btn.btn-dark {
+    background-color: #000;
+    color: #fff; 
+    border-radius: 0;
+}
+
+.btn.btn-outline {
+    background-color: transparent;
+    border-radius: 0;
+    color: #000; 
+    border: 1px solid #000;
+    padding: 7px 30px; 
+}
+
+.btn:hover { 
+    background-color: #0f730c;
+}
+
+.btn.btn-dark:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.btn.btn-outline:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.btn.btn-danger:hover {
+    background-color: #dc3545;
+}
+
+body button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+body button:disabled:hover {
+    background-color: #aaa !important;
+}
+
+.error {
+    color: #721c24; 
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb; 
+    padding: 5px; 
+    width: 100%;
+    max-width: 400px;
+    margin: 1rem auto;  
+    border-radius: 5px;
+}

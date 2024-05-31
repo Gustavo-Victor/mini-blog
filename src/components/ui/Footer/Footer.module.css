@@ -1,0 +1,19 @@
+.footer {
+    width: 100%; 
+    height: 250px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #edf3f6;
+    gap: 1.5rem; 
+    padding: 0 2rem; 
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 350px) {
+    .footer {
+        font-size: 0.95rem;
+    }
+}

@@ -1,0 +1,8 @@
+.search .no_posts{
+    text-align: center !important;
+    margin: 2rem auto 0; 
+}
+
+.search .title {
+    margin-bottom: 3rem;
+}

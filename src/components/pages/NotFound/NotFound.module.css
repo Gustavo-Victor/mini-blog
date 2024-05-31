@@ -1,0 +1,8 @@
+.not_found {
+    text-align: center;
+}
+
+.not_found p {
+    color: #aaa; 
+    margin-bottom: 1.5rem; 
+}
